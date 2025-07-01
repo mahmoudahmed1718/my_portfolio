@@ -13,7 +13,7 @@ class HomeProfile extends StatelessWidget {
       child: CircleAvatar(
         radius: 98,
         backgroundColor: AppColors.accentBlue,
-        // child: Image.asset(Assets.imagesProfileNoBackground),
+        child: Image.asset(Assets.imagesImageProfile),
       ),
     );
   }
