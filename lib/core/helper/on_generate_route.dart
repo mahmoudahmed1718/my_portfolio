@@ -3,6 +3,7 @@ import 'package:portfolio/features/about_me/presentation/view/about_me_view.dart
 import 'package:portfolio/features/contact_section.dart/presentation/view/contact_view.dart';
 import 'package:portfolio/features/home/presentation/view/home_view.dart';
 import 'package:portfolio/features/projects/presentation/view/project_view.dart';
+import 'package:portfolio/features/snippets/presentation/view/snippet_code_view.dart';
 
 Route<dynamic> onGenerateRoutes(RouteSettings settings) {
   switch (settings.name) {
@@ -14,6 +15,8 @@ Route<dynamic> onGenerateRoutes(RouteSettings settings) {
       return MaterialPageRoute(builder: (context) => const ContactView());
     case ProjectView.routeName:
       return MaterialPageRoute(builder: (context) => const ProjectView());
+    case SnippetCodeView.routeName:
+      return MaterialPageRoute(builder: (context) => const SnippetCodeView());
 
     default:
       return MaterialPageRoute(builder: (context) => const Scaffold());
