@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/features/about_me/presentation/view/about_me_view.dart';
+import 'package:portfolio/features/contact_section.dart/presentation/view/contact_view.dart';
 import 'package:portfolio/features/home/presentation/view/home_view.dart';
 
 Route<dynamic> onGenerateRoutes(RouteSettings settings) {
@@ -8,6 +9,8 @@ Route<dynamic> onGenerateRoutes(RouteSettings settings) {
       return MaterialPageRoute(builder: (context) => const HomeView());
     case AboutMeView.routeName:
       return MaterialPageRoute(builder: (context) => const AboutMeView());
+    case ContactView.routeName:
+      return MaterialPageRoute(builder: (context) => const ContactView());
 
     default:
       return MaterialPageRoute(builder: (context) => const Scaffold());
