@@ -6,48 +6,35 @@ class BiographyText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: const [
+      children: [
         SelectableText(
           'Biography',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            color: AppColors.white,
-          ),
+          style: textTheme.titleMedium?.copyWith(color: AppColors.white),
         ),
-        SizedBox(height: 8),
+        const SizedBox(height: 8),
         SelectableText.rich(
           TextSpan(
-            style: TextStyle(
-              fontSize: 16,
+            style: textTheme.bodyMedium?.copyWith(
               color: AppColors.secondaryText,
               height: 1.5,
             ),
-            children: [
+            children: const [
               TextSpan(
                 text:
-                    'Flutter enthusiast learning to build adaptive applications with ',
-              ),
-              TextSpan(
-                text: 'clean architecture. ',
-                style: TextStyle(color: AppColors.blueDark),
+                    'Passionate Flutter developer specializing in adaptive, clean-architecture applications. ',
               ),
               TextSpan(
                 text:
-                    'I enjoy writing clean code, exploring best practices, and collaborating in team environments. Passionate about ',
+                    'I enjoy writing maintainable code, applying best practices, and collaborating in team environments. ',
               ),
               TextSpan(
-                text: 'Flutter',
-                style: TextStyle(color: AppColors.accentBlue),
+                text:
+                    'Dedicated to Flutter, UI/UX excellence, and continuous cross-platform learning.',
               ),
-              TextSpan(text: ', '),
-              TextSpan(
-                text: 'UI/UX',
-                style: TextStyle(color: AppColors.accent),
-              ),
-              TextSpan(text: ', and continuous learning across platforms.'),
             ],
           ),
         ),
