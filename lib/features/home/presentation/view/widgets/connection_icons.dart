@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_icon_class/font_awesome_icon_class.dart';
 import 'package:portfolio/core/helper/url_lanucher_function.dart';
-import 'package:portfolio/features/home/presentation/view/widgets/section_icon.dart';
+import 'package:portfolio/features/home/presentation/view/widgets/social_icon.dart';
 
 class ConnectionIcons extends StatelessWidget {
   const ConnectionIcons({super.key});
