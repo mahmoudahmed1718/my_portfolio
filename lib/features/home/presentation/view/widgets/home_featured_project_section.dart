@@ -4,6 +4,7 @@ import 'package:portfolio/core/helper/all_projects_list.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
 import 'package:portfolio/core/utils/assets.dart';
 import 'package:portfolio/features/home/presentation/view/widgets/project_card.dart';
+import 'package:portfolio/features/projects/presentation/view/project_view.dart';
 
 import 'package:visibility_detector/visibility_detector.dart';
 
@@ -123,7 +124,7 @@ class _HomeFeaturedProjectSectionState extends State<HomeFeaturedProjectSection>
                       alignment: Alignment.centerLeft,
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          // GoRouter.of(context).push(AppRouter.kProjects);
+                          Navigator.pushNamed(context, ProjectsView.routeName);
                         },
                         icon: Icon(Icons.menu),
                         label: SelectableText('See More'),

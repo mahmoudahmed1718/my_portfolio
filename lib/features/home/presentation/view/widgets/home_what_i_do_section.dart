@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
 import 'package:portfolio/core/utils/assets.dart';
+import 'package:portfolio/features/about_me/presentation/view/about_me_view.dart';
 import 'package:portfolio/features/home/presentation/view/widgets/service_card.dart';
 import 'package:portfolio/features/home/presentation/view/widgets/what_i_do_text.dart';
 
@@ -53,7 +54,10 @@ class HomeWhatIDoSection extends StatelessWidget {
                             padding: const EdgeInsets.symmetric(vertical: 80),
                             child: IconButton(
                               onPressed: () {
-                                // GoRouter.of(context).push(AppRouter.kAbout);
+                                Navigator.pushNamed(
+                                  context,
+                                  AboutMeView.routeName,
+                                );
                               },
                               icon: Image.asset(Assets.imagesWhatIDoArrow),
                             ),
@@ -126,7 +130,10 @@ class HomeWhatIDoSection extends StatelessWidget {
                           padding: EdgeInsets.symmetric(vertical: 80),
                           child: IconButton(
                             onPressed: () {
-                              // GoRouter.of(context).push(AppRouter.kAbout);
+                              Navigator.pushNamed(
+                                context,
+                                AboutMeView.routeName,
+                              );
                             },
                             icon: Image.asset(Assets.imagesWhatIDoArrow),
                           ),

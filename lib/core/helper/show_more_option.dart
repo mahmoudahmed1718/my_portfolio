@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/features/about_me/presentation/view/about_me_view.dart';
+import 'package:portfolio/features/contact_section.dart/presentation/view/contact_view.dart';
 
 void showMoreOptions(BuildContext context) {
   showModalBottomSheet(
@@ -18,8 +20,8 @@ void showMoreOptions(BuildContext context) {
               style: TextStyle(color: Colors.white),
             ),
             onTap: () {
-              // GoRouter.of(context).pop();
-              // GoRouter.of(context).push(AppRouter.kAbout);
+              Navigator.pop(context);
+              Navigator.pushNamed(context, AboutMeView.routeName);
             },
           ),
           ListTile(
@@ -27,7 +29,7 @@ void showMoreOptions(BuildContext context) {
             title: const Text('Contact', style: TextStyle(color: Colors.white)),
             onTap: () {
               Navigator.pop(context);
-              // GoRouter.of(context).push(AppRouter.kContact);
+              Navigator.pushNamed(context, ContactView.routeName);
             },
           ),
         ],

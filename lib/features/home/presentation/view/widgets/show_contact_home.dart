@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
+import 'package:portfolio/features/contact_section.dart/presentation/view/contact_view.dart';
 
 import 'package:url_launcher/url_launcher.dart';
 
@@ -36,7 +37,7 @@ class ShowContactInHome extends StatelessWidget {
           alignment: Alignment.center,
           child: ElevatedButton.icon(
             onPressed: () {
-              // GoRouter.of(context).push(AppRouter.kContact);
+              Navigator.pushNamed(context, ContactView.routeName);
             },
             icon: Icon(Icons.menu),
             label: Text('See More'),

@@ -3,6 +3,7 @@ import 'package:portfolio/core/helper/all_snippets.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
 import 'package:portfolio/features/home/presentation/view/widgets/snippet_card.dart';
 import 'package:portfolio/features/home/presentation/view/widgets/snippet_code_diolog.dart';
+import 'package:portfolio/features/snippets/presentation/view/snippet_code_view.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 
 class HomeSnippetsSection extends StatefulWidget {
@@ -115,7 +116,7 @@ class _HomeSnippetsSectionState extends State<HomeSnippetsSection>
                   alignment: Alignment.centerLeft,
                   child: ElevatedButton.icon(
                     onPressed: () {
-                      // GoRouter.of(context).push(AppRouter.kSnippets);
+                      Navigator.pushNamed(context, SnippetCodeView.routeName);
                     },
                     icon: Icon(Icons.menu),
                     label: Text('See More'),

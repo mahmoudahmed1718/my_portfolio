@@ -13,8 +13,8 @@ Route<dynamic> onGenerateRoutes(RouteSettings settings) {
       return MaterialPageRoute(builder: (context) => const AboutMeView());
     case ContactView.routeName:
       return MaterialPageRoute(builder: (context) => const ContactView());
-    case ProjectView.routeName:
-      return MaterialPageRoute(builder: (context) => const ProjectView());
+    case ProjectsView.routeName:
+      return MaterialPageRoute(builder: (context) => const ProjectsView());
     case SnippetCodeView.routeName:
       return MaterialPageRoute(builder: (context) => const SnippetCodeView());
 
