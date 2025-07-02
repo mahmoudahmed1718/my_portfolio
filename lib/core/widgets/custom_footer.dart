@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:portfolio/core/helper/url_lanucher_function.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
