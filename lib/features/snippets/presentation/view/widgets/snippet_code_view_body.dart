@@ -7,6 +7,7 @@ import 'package:portfolio/core/widgets/custom_footer.dart';
 import 'package:portfolio/core/widgets/custom_header.dart';
 import 'package:portfolio/features/about_me/presentation/view/about_me_view.dart';
 import 'package:portfolio/features/contact_section.dart/presentation/view/contact_view.dart';
+import 'package:portfolio/features/home/presentation/view/mobil_snippets.dart';
 import 'package:portfolio/features/projects/presentation/view/project_view.dart';
 import 'package:portfolio/features/snippets/presentation/view/widgets/responsive_snippet_grid_view.dart';
 import 'package:portfolio/features/snippets/presentation/view/widgets/snippet_header_secion.dart';
@@ -63,7 +64,7 @@ class _CodeSnippetsViewBodyState extends State<CodeSnippetsViewBody> {
     final width = MediaQuery.of(context).size.width;
     return LayoutBuilder(
       builder: (context, constrains) => constrains.maxWidth < 800
-          ? SizedBox() // neeed here Mobile snippets
+          ? MobileSnippets() // neeed here Mobile snippets
           : buildSnippetsDesktopLayout(width),
     );
   }

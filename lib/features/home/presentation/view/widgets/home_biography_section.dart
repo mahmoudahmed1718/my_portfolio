@@ -42,8 +42,8 @@ class HomeBiographySection extends StatelessWidget {
                       backgroundColor: AppColors.accent,
                       child: CircleAvatar(
                         radius: 45,
-                        backgroundColor: AppColors.accentBlue,
-                        child: Image.asset(Assets.imagesImageProfile),
+                        backgroundImage: AssetImage(Assets.imagesImageProfile),
+                        backgroundColor: Colors.black,
                       ),
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * 0.022),

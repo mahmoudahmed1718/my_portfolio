@@ -12,8 +12,8 @@ class HomeProfile extends StatelessWidget {
       backgroundColor: AppColors.accent,
       child: CircleAvatar(
         radius: 98,
-        backgroundColor: AppColors.accentBlue,
-        child: Image.asset(Assets.imagesImageProfile),
+        backgroundImage: AssetImage(Assets.imagesImageProfile),
+        backgroundColor: Colors.black,
       ),
     );
   }

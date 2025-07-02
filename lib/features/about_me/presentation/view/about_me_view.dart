@@ -11,6 +11,8 @@ import 'package:portfolio/core/widgets/mobil_bottom_nav.dart';
 import 'package:portfolio/features/about_me/presentation/view/widgets/experince_section.dart';
 import 'package:portfolio/features/contact_section.dart/presentation/view/contact_view.dart';
 import 'package:portfolio/features/home/presentation/view/home_view.dart';
+import 'package:portfolio/features/home/presentation/view/mobil_projects.dart';
+import 'package:portfolio/features/home/presentation/view/mobil_snippets.dart';
 import 'package:portfolio/features/projects/presentation/view/project_view.dart';
 import 'package:portfolio/features/snippets/presentation/view/snippet_code_view.dart';
 
@@ -63,9 +65,9 @@ class _AboutMeViewState extends State<AboutMeView> {
           if (index == 0) {
             Navigator.pushNamed(context, HomeView.routeName);
           } else if (index == 1) {
-            // GoRouter.of(context).push(AppRouter.kMobileProjects);
+            Navigator.pushNamed(context, MobileProjects.routeName);
           } else if (index == 2) {
-            // GoRouter.of(context).push(AppRouter.kMobileSnippets);
+            Navigator.pushNamed(context, MobileSnippets.routeName);
           } else if (index == 3) {
             showMoreOptions(context);
           } else {

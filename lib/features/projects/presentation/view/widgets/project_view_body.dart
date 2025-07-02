@@ -6,6 +6,7 @@ import 'package:portfolio/core/widgets/custom_footer.dart';
 import 'package:portfolio/core/widgets/custom_header.dart';
 import 'package:portfolio/features/about_me/presentation/view/about_me_view.dart';
 import 'package:portfolio/features/contact_section.dart/presentation/view/contact_view.dart';
+import 'package:portfolio/features/home/presentation/view/mobil_projects.dart';
 import 'package:portfolio/features/projects/presentation/view/widgets/all_project_layout.dart';
 import 'package:portfolio/features/projects/presentation/view/widgets/project_text.dart';
 import 'package:portfolio/features/snippets/presentation/view/snippet_code_view.dart';
@@ -37,7 +38,7 @@ class _ProjectsViewBodyState extends State<ProjectsViewBody> {
     final width = MediaQuery.of(context).size.width;
     return LayoutBuilder(
       builder: (context, constrains) => constrains.maxWidth < 800
-          ? SizedBox() // MobileProjects()
+          ? MobileProjects() // MobileProjects()
           : buildProjectsDesktopLayout(width),
     );
   }
