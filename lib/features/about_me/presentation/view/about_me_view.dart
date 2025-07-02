@@ -183,8 +183,8 @@ class _AboutMeViewState extends State<AboutMeView> {
                 backgroundColor: AppColors.accent,
                 child: CircleAvatar(
                   radius: 80,
-                  backgroundColor: AppColors.accentBlue,
-                  child: Image.asset(Assets.imagesImageProfile),
+                  backgroundImage: AssetImage(Assets.imagesImageProfile),
+                  backgroundColor: Colors.black,
                 ),
               ),
 

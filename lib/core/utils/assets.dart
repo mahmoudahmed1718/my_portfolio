@@ -6,13 +6,18 @@ class Assets {
   /// assets/images/attendance.png
   static const String imagesAttendance = "assets/images/attendance.png";
 
+  /// Assets for imagesEcommerceDashboard
+  /// assets/images/ecommerce_dashboard.jpg
+  static const String imagesEcommerceDashboard =
+      "assets/images/ecommerce_dashboard.jpg";
+
   /// Assets for imagesFacebook
   /// assets/images/facebook.png
   static const String imagesFacebook = "assets/images/facebook.png";
 
-  /// Assets for imagesImageProfile
-  /// assets/images/image_profile.png
-  static const String imagesImageProfile = "assets/images/profile_image.png";
+  /// Assets for imagesFruitHub
+  /// assets/images/fruit_hub.jpg
+  static const String imagesFruitHub = "assets/images/fruit_hub.jpg";
 
   /// Assets for imagesInsta
   /// assets/images/insta.png
@@ -33,6 +38,10 @@ class Assets {
   /// Assets for imagesPathTracker
   /// assets/images/path_tracker.png
   static const String imagesPathTracker = "assets/images/path_tracker.png";
+
+  /// Assets for imagesProfileImage
+  /// assets/images/profile_image.png
+  static const String imagesImageProfile = "assets/images/profile_image.png";
 
   /// Assets for imagesProjectArrow
   /// assets/images/project_arrow.png

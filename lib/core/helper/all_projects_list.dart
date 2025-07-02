@@ -10,26 +10,26 @@ const List<ProjectEntity> allProjects = [
     description:
         'A Flutter-based mobile app that controls a ground-tracking robot. It displays real-time data such as speed, obstacle distance, and robot status, and allows interactive control of movement and path tracking.',
   ),
-
-  ProjectEntity(
-    url: 'https://github.com/abd0-kha1ed/attendance-system',
-    imagePath: Assets.imagesLms,
-    type: 'Attendance System',
-    title: 'Flutter Attendance',
-    description:
-        'A Flutter-based attendance system that allows teachers to manage student attendance efficiently.',
-  ),
   ProjectEntity(
     url: 'https://github.com/abd0-kha1ed/lms',
-    imagePath: Assets.imagesAttendance,
+    imagePath: Assets.imagesLms,
     type: 'Flutter LMS',
     title: 'Learning Platform',
     description:
         'Flutter LMS built for students and teachers with clean architecture and state management.',
   ),
   ProjectEntity(
-    url: 'https://github.com/mahmoudahmed1718/ecommerce',
+    url: 'https://github.com/abd0-kha1ed/attendance-system',
     imagePath: Assets.imagesAttendance,
+    type: 'Attendance System',
+    title: 'Flutter Attendance',
+    description:
+        'A Flutter-based attendance system that allows teachers to manage student attendance efficiently.',
+  ),
+
+  ProjectEntity(
+    url: 'https://github.com/mahmoudahmed1718/ecommerce',
+    imagePath: Assets.imagesFruitHub,
     type: 'Fruit Hub',
     title: 'E-Commerce App',
     description:
@@ -37,7 +37,7 @@ const List<ProjectEntity> allProjects = [
   ),
   ProjectEntity(
     url: 'https://github.com/mahmoudahmed1718/ecommercedash',
-    imagePath: Assets.imagesAttendance,
+    imagePath: Assets.imagesEcommerceDashboard,
     type: 'Fruit Hub Admin Dashboard',
     title: 'eCommerce Dashboard',
     description:
@@ -45,7 +45,7 @@ const List<ProjectEntity> allProjects = [
   ),
   ProjectEntity(
     url: 'https://github.com/mahmoudahmed1718',
-    imagePath: Assets.imagesAttendance,
+    imagePath: Assets.imagesQuotes,
     type: 'Quotes App',
     title: 'Quotes App',
     description:

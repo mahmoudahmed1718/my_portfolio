@@ -14,7 +14,7 @@ class ShowContactInHome extends StatelessWidget {
       children: [
         ElevatedButton(
           onPressed: () {
-            launchUrl(Uri.parse('mailto:abdelrahmankhaleddev@gmail.com'));
+            launchUrl(Uri.parse('mailto:mahmoudahmedhsn@gmail.com'));
           },
           style: ElevatedButton.styleFrom(
             backgroundColor: AppColors.accent,
