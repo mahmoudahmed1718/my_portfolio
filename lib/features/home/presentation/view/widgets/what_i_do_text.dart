@@ -33,15 +33,15 @@ class WhatIDoText extends StatelessWidget {
               ),
               TextSpan(
                 text:
-                    ', with a focus on UI/UX, responsiveness, and performance. I\'m currently learning more about ',
+                    ', with a focus on UI/UX, responsiveness, and performance, and I have experience with firebase and supabase. ',
               ),
               TextSpan(
-                text: 'clean architecture',
+                text: 'clean architecture,',
                 style: TextStyle(color: AppColors.blueDark),
               ),
               TextSpan(
                 text:
-                    ', state management, and API integration. I value clean code, collaboration, and continuous learning.',
+                    ', state management, and API integration,payment gateways,google maps. I value clean code, collaboration, and continuous learning.',
               ),
             ],
           ),
