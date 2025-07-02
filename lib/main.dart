@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Mahmoud Ahmed |Software Engineer | Flutter Developer',
+      title: 'Mahmoud Ahmed | Software Engineer | Flutter Developer',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: AppColors.background,
