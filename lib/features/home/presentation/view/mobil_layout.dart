@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/helper/show_more_option.dart';
 import 'package:portfolio/core/widgets/mobil_bottom_nav.dart';
+import 'package:portfolio/features/home/presentation/view/mobil_projects.dart';
+import 'package:portfolio/features/home/presentation/view/mobil_snippets.dart';
 import 'package:portfolio/features/home/presentation/view/widgets/mobil_layout_body.dart';
 
 class MobileLayout extends StatefulWidget {
@@ -57,9 +59,9 @@ class _MobileLayoutState extends State<MobileLayout> {
           if (index == currentIndex) {
             scrollToSection(homeKey);
           } else if (index == 1) {
-            // GoRouter.of(context).push(AppRouter.kMobileProjects);
+            Navigator.pushNamed(context, MobileProjects.routeName);
           } else if (index == 2) {
-            // GoRouter.of(context).push(AppRouter.kMobileSnippets);
+            Navigator.pushNamed(context, MobileSnippets.routeName);
           } else if (index == 3) {
             showMoreOptions(context);
           } else {
