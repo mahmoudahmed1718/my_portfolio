@@ -1,1 +1,1 @@
-double horizontalPadding = 0.046353458;
+double horizontalPadding = 0.0463534580;
