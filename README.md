@@ -1,16 +1,35 @@
-# portfolio
+# 🌐 Flutter Web Portfolio
 
-A new Flutter project.
+This is a professional portfolio website built entirely with **Flutter Web**.  
+It presents my projects, skills, and contact info in a responsive, animated, and interactive format.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🖥️ Live Preview
 
-A few resources to get you started if this is your first Flutter project:
+🔗 [[https://abd0-kha1ed.github.io/portfolio_web/](https://mahmoudahmed1718.github.io/my_portfolio/)]
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+
+- 📱 Fully responsive & adaptive layout (desktop, tablet, mobile)
+- 🎨 Custom design with smooth animations
+- 🔄 Scroll-triggered animations (appear when scrolled into view)
+- 🧠 Clean Architecture with MVVM pattern
+- 📫 Interactive Contact section with background visuals
+- 📸 Preview section with screenshots of key projects
+
+---
+
+## 🧰 Tech Stack
+
+| Area | Tools |
+|------|-------|
+| Framework | Flutter (Web) |
+| Architecture | MVVM + Clean Architecture |
+| Packages | `intl`, `url_launcher`, `google_fonts`, etc. |
+| Deployment | GitHub Pages |
+
+---
+
