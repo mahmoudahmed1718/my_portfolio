@@ -7,7 +7,7 @@ It presents my projects, skills, and contact info in a responsive, animated, and
 
 ## 🖥️ Live Preview
 
-🔗 [[https://abd0-kha1ed.github.io/portfolio_web/](https://mahmoudahmed1718.github.io/my_portfolio/)]
+🔗 [[https://mahmoudahmed1718.github.io/my_portfolio/](https://mahmoudahmed1718.github.io/my_portfolio/)]
 
 ---
 
